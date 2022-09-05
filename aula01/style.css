@@ -1,0 +1,68 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  background-color: #000000;
+  background-size: 40vh;
+  background-position: center ;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 80vh;
+}
+
+.page-title {
+  color:#8d64c6;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#8d64c6;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.ims-dev-logo {
+  font-family: 'IBM Plex Mono', monospace;
+  color:#ffffff;
+  font-size: 30px;
+}
+
+.ims-dev-dev {
+  background-color: purple;
+  padding: 5px;
+  position: relative;
+  left: -10px;
+}
+
+.normal-text {
+  color:#ffffff;
+}
+
+.input-nota {
+  width: 50px;
+  margin: 2px;
+}
+
+.passed {
+  color:green;
+}
+
+.reproved {
+  color:red;
+}
+
+.nota {
+  color:#ffffff;
+}

@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title> Imersão Dev Alura - Aula 01</title>
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title"> Calculadora de média </h1>
+        <p class="ims-dev-logo">
+            imersão 
+            <span class="ims-dev-dev"> dev_ </span>
+        </p>
+
+        <span class="normal-text">Nota 1: </span> <input id="nota-1" class="input-nota"/><br/>
+        <span class="normal-text">Nota 2: </span> <input id="nota-2" class="input-nota"/><br/>
+        <span class="normal-text">Nota 3: </span> <input id="nota-3" class="input-nota"/><br/>
+        <span class="normal-text">Nota 4: </span> <input id="nota-4" class="input-nota"/><br/>
+        <button style="margin-top: 10px" onclick="calcNota()">Calcular Nota</button>
+        <h1 id="nota" class="nota"></h1>
+
+        <div id="passed" hidden>
+            <h2 class="passed">Passou!</h2>
+            <img style="width: 130px;" src="https://cdn.betterttv.net/emote/5590b223b344e2c42a9e28e3/3x"/>
+        </div>
+        <div id="reproved" hidden>
+            <h2 class="reproved">Reprovou!</h2>
+            <img 
+                style="width: 130px;"
+                src="https://avowhcbwko.cloudimg.io/v7/https://montinkantigo.s3.amazonaws.com/data/camisas/pede-pra-nerfar-noob-5acea1d7d428e-estampa-303.png"/>
+        </div>
+    </div>
+
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo" />
+    </a>
+</body>
+
+<script src="app.js"></script>
+
+</html>
