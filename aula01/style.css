@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto Mono',monospace;
-  background-color: #000000;
+  background-color: #1f1e20;
   background-size: 40vh;
   background-position: center ;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body {
 
 .page-title {
   color:#8d64c6;
-  margin: 0 0 5px;
+  margin-bottom: 20px;
 }
 
 .page-subtitle {
@@ -65,4 +65,57 @@ body {
 
 .nota {
   color:#ffffff;
+}
+
+.button-1 {
+  background-color: purple;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 10px;
+}
+
+.button-1:hover {
+  background-color: #F082AC;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 40px;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;  
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right,#F082AC, #F082AC);
+  border-image-slice: 1;
 }
