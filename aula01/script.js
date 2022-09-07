@@ -54,6 +54,5 @@ function convTemp() {
     }
 
     getElement('temp_fhrnt').innerHTML = f;
-
 }
 
