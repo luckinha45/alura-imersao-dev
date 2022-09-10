@@ -1,4 +1,4 @@
-var max = 200;
+var max = 1000;
 var tentativas = 10;
 var fim = false;
 

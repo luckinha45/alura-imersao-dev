@@ -1,27 +1,21 @@
 body {
 	font-family: 'Roboto Mono',monospace;
 	background-color: #1f1e20;
-	background-image: url('https://lh3.googleusercontent.com/drive-viewer/AJc5JmTkrxoGD_seZsNGZen1KTYU5bPYKP1MuZHjn4ejqrDqelkO8VrvE06IgqvehyepOy16tnN4k48=w1366-h625');
+	background-image: url('https://www.pockettactics.com/wp-content/uploads/2022/02/Kingdom-hearts-III-wallpaper.jpg');
 	background-size: cover;
-	background-position: center ;
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .container {
 	text-align: center;
-	background-color: #181819;
 	margin: auto;
 	padding: 20px;
-	width: 60vh;
-	border-radius: 5%;
 }
 
 .page_title {
-	color:#8d64c6;
+	color:#ffffff;
 	margin-bottom: 20px;
-	background-image: url('https://i.pinimg.com/originals/f9/6d/fb/f96dfb9f9d4e0b42af3888de8b9473a7.gif');
-	background-size: 50px;
 	-webkit-text-stroke: 1px #000;
 }
 
@@ -45,6 +39,8 @@ body {
 	font-family: 'IBM Plex Mono', monospace;
 	color:#ffffff;
 	font-size: 30px;
+	position: relative;
+	margin-top: 0px;
 }
 
 .ims_dev_dev {
@@ -109,22 +105,17 @@ body {
 
 .form_field {
 	font-family: inherit;
-	width: 100px;
 	border: 0;
-	border-bottom: 2px solid #9b9b9b;
-	outline: 0;
-	font-size: 1.3rem;
-	color: #fff;
 	padding: 7px 0;
-	background: transparent;
-	transition: border-color 0.2s;
+	border-radius: 10px;
+	text-indent: 10px;
+	margin: 5px;
 }
 
 .form_field:focus {
 	padding-bottom: 6px;  
 	font-weight: 700;
 	border-width: 3px;
-	border-image: linear-gradient(to right,#F082AC, #F082AC);
 	border-image-slice: 1;
 }
 
@@ -174,4 +165,38 @@ tr.spaceUnder>td {
 	position: relative;
 	top: -5vh;
 	color:#ffffff;
+}
+
+.div_capas {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.capa_game_container {
+	width: 160px;
+	border-style: solid;
+	border-color: purple;
+	border-radius: 8px;
+	margin-bottom: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.capa_game_img {
+	width: 100%;
+	height: 230px;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+}
+.capa_game_name {
+	background-color: #000;
+	color: #fff;
+	margin: auto;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+.capa_game_fecha {
+	width: 20px;
+	cursor: pointer;
+	position: absolute;
 }

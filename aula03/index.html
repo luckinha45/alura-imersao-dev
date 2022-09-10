@@ -1,46 +1,47 @@
 <html>
-  <head>
-    <title>Imersão Dev Alura - Aula 01</title>
+<head>
+	<title>Imersão Dev Alura - Aula 03</title>
 
-    <link rel="icon" href="favicon.png" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<link rel="icon" href="favicon.png" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap"
+		rel="stylesheet"
+	/>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <div class="container">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="container">
 		<p class="ims_dev_logo">
-            imersão 
-            <span class="ims_dev_dev"> dev_ </span>
-        </p>
-      <h1 class="page_title">Mentalista HARDCORE</h1>
-	  <div class="normal_text" style="font-size: 13.5px;">
-		  <p>Digite um número de 0 a 200!</p>
-		  <p>Porém, para facilitar, coloquei uma barra de progresso para mostrar o quão próximo você está.</p>
-		  <p>Se divirta!</p>
-		  <p>P.S. Você só têm 10 tentativas ;)</p>
-	  </div>
+			imersão 
+			<span class="ims_dev_dev"> dev_ </span>
+		</p>
+		<h1 class="page_title">Mentalista HARDCORE</h1>
+		
+		<div class="normal_text" style="font-size: 13.5px;">
+			<p>Digite um número de 0 a 1000 e tente acertar!</p>
+			<p>Porém, para facilitar, coloquei uma barra de progresso para mostrar o quão próximo você está.</p>
+			<p>Se divirta!</p>
+			<p>P.S. Você só têm 10 tentativas ;)</p>
+		</div>
 
-    <input id="valor" class="form_field" type="number" style="text-align: center;"/><br />
-    <button class="btn_submit" onclick="Chutar()">Chutar</button>
+		<input id="valor" class="form_field" type="number" style="text-align: center;"/><br />
+		<button class="btn_submit" onclick="Chutar()">Chutar</button>
 
-	<h2 class="resultado" id="resultado"></h2>
-	<div id="dica_result" class="dica">
-		<div id="dica_atual" class="dica_atual"></div>
-		<span id="porcentagem" class="porcentagem"></span>
-	  </div>
-    </div>
+		<div id="dica_result" class="dica">
+			<div id="dica_atual" class="dica_atual"></div>
+			<span id="porcentagem" class="porcentagem"></span>
+		</div>
+		<h2 class="resultado" id="resultado"></h2>
+	</div>
 
-    <a href="https://alura.com.br/" target="_blank">
+	<a href="https://alura.com.br/" target="_blank">
 		<img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" class="alura_logo"/>
-    </a>
-	
-  </body>
+	</a>
+
+</body>
 </html>

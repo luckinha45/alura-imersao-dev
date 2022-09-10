@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>Imersão Dev Alura - Aula 05</title>
+
+	<link rel="icon" href="favicon.png" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet" />
+
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<p class="ims_dev_logo">
+			Alura
+			<span class="ims_dev_dev"> games_ </span>
+		</p>
+		<h1 class="page_title"> Adicione capas dos seus jogos favoritos! </h1>
+		<div>
+			<input id="link_img" placeholder="Link da Capa" class="form_field" style="width: 70vw;"/> <br>
+			<input id="name_game" placeholder="Nome do Jogo" class="form_field" style="width: 30vw;"/> <br>
+			<button onclick="addCapa()" class="btn_submit"> Adicionar Capa </button>
+		</div>
+		<div id="div_capas" class="div_capas"></div>
+	</div>
+	
+	<a href="https://alura.com.br/" target="_blank">
+		<img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" class="alura_logo" />
+	</a>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
